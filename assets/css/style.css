@@ -86,6 +86,8 @@ h2 {
 
 #about_me_paragraph {
     line-height: 1.5;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p {
     color: #777777;
@@ -190,4 +192,22 @@ footer {
     margin-top: 20px;
     border-top: 8px solid #4aaaa5;
     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:980px) {
+    h1 {
+        margin-left: 5%;
+    }
+
+    .content {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 85%;
+    }
+
+    .links {
+        margin-right: 5%;
+
+    }
 }
