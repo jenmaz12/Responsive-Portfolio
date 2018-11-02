@@ -1,0 +1,193 @@
+body {
+    background-image: url("../images/circles-light.png");
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    overflow: auto;
+    margin-left: 200px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.links {
+    position: relative;
+    float: right;
+    top: -50px;
+    color: #cccccc;
+    overflow: auto;
+    width: 200px;
+    margin-right: 275px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#nav1 {
+    position: relative;
+    float: left;
+    border-right: 1px solid #cccccc;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+#nav2 {
+    position: relative;
+    float: left;
+    border-right: 1px solid #cccccc;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+#nav3 {
+    position: relative;
+    float: left;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+.content {
+    clear: both;
+    width: 920px;
+    margin: 0px 200px 100px 200px;
+    background-color: #ffffff;
+    overflow: auto;
+    padding: 20px;
+    height: 100%;
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 3px solid #dddddd;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#profile {
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+#about_me_paragraph {
+    line-height: 1.5;
+}
+p {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project_images {
+    width: 270px;
+    height: 200px;
+    margin: 20px;
+}
+
+.project_name {
+    clear: both;
+    position: relative;
+    margin: 20px;
+    top: -120px;
+    background-color: #4aaaa5;
+    width: 270px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Hangman {
+    float: left;
+    height: 250px;
+    font-size: 18px;
+}
+
+#RPG {
+    float: left;
+    height: 250px;
+}
+#Trivia {
+  clear: both;
+  float: left;
+  height: 250px;
+}
+#Rutgers {
+    float: left;
+    height: 250px;
+}
+#Rock {
+    clear: both;
+    height: 250px;
+    width: 310px;
+    margin-right: 0;
+}
+
+
+.input {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+input[name=Name] {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #777777;
+}
+
+input[type=email] {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 5px;
+    color: #777777;
+}
+
+textarea {
+    resize: none;
+    border-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 920px;
+    margin-top: 5px;
+    color: #777777;
+    
+}
+
+input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin-top: 10px;
+}
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+}
