@@ -140,9 +140,12 @@ p {
 }
 #Rock {
     clear: both;
+    float: left;
     height: 250px;
-    width: 310px;
-    margin-right: 0;
+}
+
+#Gif {
+    float: left;
 }
 
 
